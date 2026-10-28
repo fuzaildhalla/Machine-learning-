@@ -23,4 +23,4 @@ def datainsert(ds:datascience):
     marks = model.predict([[ds.studyHours]])
     return{"predictionmarks":round(float(marks[0]),2)}
     
-    
+      
